@@ -7,7 +7,7 @@ app = FastAPI()
 # ✅ CORS Configuration
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "https://fomago-convertor.vercel.app/"],  # or ["*"] for testing
+    allow_origins=["https://fomago-convertor.vercel.app/", "http://localhost:5173",],  # or ["*"] for testing
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
