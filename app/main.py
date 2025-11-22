@@ -7,7 +7,7 @@ app = FastAPI()
 # ✅ CORS Configuration
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://docuflex-backend-production.up.railway.app/","http://localhost:3000",],  # or ["*"] for testing
+    allow_origins=["https://fomago-convertor.vercel.app/","http://localhost:3000",],  # or ["*"] for testing
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
